@@ -11,6 +11,8 @@ import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 import javax.xml.crypto.Data;
 
+import br.com.etechoracio.feriadoapo.enuns.TipoFeriadoEnum;
+
 @Entity
 @Table(name = "tbl_feriado")
 public class Feriado {
